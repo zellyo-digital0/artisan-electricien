@@ -1,0 +1,477 @@
+@media (max-width: 1399px){
+    .forfait-card {
+        min-height: 520px;
+    }
+    .nos-row ul li {
+        font-size: 16px;
+    }
+    .banner-row {
+        min-height: 700px;
+    }
+    .nav-item {
+        padding: 0 10px;
+    }
+    .cs-btn-secondary {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .cs-btn-three {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .banner-row h1 {
+        font-size: 40px;
+    }
+    .banner-row h5 {
+        padding: 0px 30px 0px 0;
+    }
+    .cs-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .part5-left h2 {
+        margin-top: 53px;  
+    }
+    .testimonials-box {
+        min-height: 415px;
+    }
+    .single-mail {
+        min-height: 154px;
+    }
+    .mail {
+        margin-bottom: -77px;
+        padding-top: 30px;
+    }
+}
+@media (max-width: 1199px) {
+    .mail-des {
+        width: 68%;
+    }
+    .forfait-card {
+        min-height: 502px;
+    }
+    .nav-item {
+        padding: 0 5px;
+    }
+    .card {
+        min-height: 393px;
+    }
+    .nav-btn {
+        margin-left: 10px;
+    }
+    .banner-row h2 {
+        padding: 0px 0 15px 0px;
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    h3 {
+        font-size: 30px;
+    }
+    .p-60 {
+        padding: 60px 0;
+    }
+    .realisation{
+        padding: 0 0 60px;
+    }
+    .single-testimolial {
+        margin-top: 30px;
+    }
+    .mail-des {
+        width: 85%;
+    }
+    .forfait-card {
+        min-height: 100px;
+    }
+    .single-mail {
+        min-height: 97px;
+    }
+  .banner-img{
+    max-width: 500px;
+    margin: auto;
+  }
+  .banner-row {
+    text-align: center;
+    padding: 30px 0 60px;
+    }
+    .banner-row h1 {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .banner-row h5 {
+        color: var(--cs-white);
+        padding: 0px 0px 0px 0;
+    }
+    .icon-img {
+        max-width: 70px;
+    }
+    .icon-box{
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .card {
+        min-height: 405px;
+        margin-top: 20px;
+    }
+    .realisation-row {
+        margin-bottom: 10px;
+    }
+    .plombier-left {
+        margin-top: 45px;
+    }
+    h4 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .contact-right {
+        padding: 50px 0 0px;
+    }
+    .mail {
+        padding-top: 0px;
+        margin-bottom: 60px;
+    }
+    .single-mail {
+        margin-bottom: 20px;
+    }
+    footer {
+        padding: 50px 0 30px;
+    }
+    .footer-row ul li {
+        padding: 0 10px;
+    }
+    .cs-btn-three, .cs-btn-secondary {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .nav-btn{
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 20px 20px;
+    }
+    .nav-item {
+        padding: 0;
+    }
+    .nav-item {
+        margin-top: 15px;
+    }
+    .testimonial-row h4 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .contact-right {
+        padding: 40px 0 0px;
+    }
+    .contact-right h2 {
+        margin-bottom: 35px;
+    }
+    .plombier-left h1 {
+        font-size: 30px;
+    }
+    .banner-row h2 {
+        font-size: 30px;
+    }
+}
+/*------------------------------------------------------------------------------- Tablet device ---------------------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+    .banner-row ul {
+        margin: 0px 0 30px;
+    }
+    .banner-row ul li {
+        font-size: 16px;
+    }
+    .mail-des {
+        width: 80%;
+    }
+    .sticky-btn-wrapper {
+        padding: 10px 0;
+    }
+    .sticky-btn-wrapper ul li {
+        padding: 0;
+        width: 45%;
+    }
+    .nav-btn{
+        max-width: 320px;
+        margin: 16px auto;
+    }
+    .banner-row {
+        text-align: center;
+        padding: 40px 10px;
+    }
+    .banner-row h1 {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .banner-row h2 {
+        padding: 0px 0 0px 0px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    .banner-row h5 {
+        padding: 10px 20px 0px;
+    }
+    .p-60 {
+        padding: 40px 0;
+    }
+    .realisation{
+        padding: 0 0 40px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .nos-row ul {
+        margin: 30px 0px 0;
+    }
+    .card {
+        min-height: 431px;
+        margin-top: 20px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .testimonial p{
+        padding: 0px 10px 15px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    p {
+        line-height: 26px;
+    }
+    .contact-right h2 {
+        margin-bottom: 30px;
+    }
+    .single-testimolial {
+        margin-top: 20px;
+    }
+    .logo-group {
+        padding: 30px 0;
+    }
+    .plombier-left{
+        text-align: center;
+    }
+    .nos{
+        padding: 40px 10px;
+    }
+    .plombier-left h1 {
+        font-size: 20px;
+    }
+    .contact-right {
+        padding: 30px 0 0px;
+    }
+    .contact {
+        padding-bottom: 60px;
+    }
+    .mail {
+        margin-bottom: 40px;
+    }
+    .faq-row {
+        margin-top: 30px;
+    }
+    .plombier-left a{
+        margin-top: 20px;
+    }
+    .plombier-left {
+        margin-top: 40px;
+    }
+    .plombier-left h4 { 
+      font-size: 24px; 
+    }
+    .testimonial-row h3 {
+        font-size: 24px;
+    }
+    .forfait-card {
+        margin-top: 30px;
+    }
+    .plombier-left h1 {
+        padding-bottom: 0;
+    }
+}
+/*------------------------------------------------------------------------------------- mobile device-------------------------------------------------------------------------------------- */
+@media (max-width: 575px) {
+    
+    .nav-btn{
+        max-width: 320px;
+        margin: 16px auto;
+    }
+    .nos p {
+        margin: 15px 0 0;
+    }
+    .forfait-card {
+        margin-top: 22px;
+    }
+    .banner-row h2 {
+        padding: 10px 0px 0px 0;
+        font-size: 22px;
+    }
+    .testimonial-row a {
+        margin-top: 10px;
+    }
+    .testimonial-row h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .banner-row h1 {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .banner-row h5 {
+        padding: 15px 0px 0px;
+        line-height: 25px;
+    }
+    .cs-btn {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+    .icon-img {
+        max-width: 50px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .nos-row ul li {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .realisation-row {
+        margin-bottom: 0px;
+    }
+    .card {
+        min-height: 362px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .plombier-left p {
+        padding: 0px 10px 10px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .footer-row ul li {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    .card-des {
+        margin-top: -40px;
+    }
+    .card-icon {
+        width: 80px;
+        height: 80px;
+    }
+    .p-60 {
+        padding: 30px 0;
+    }
+    .realisation{
+        padding: 0 0 30px;
+    }
+    .sticky-btn {
+        font-size: 40px;
+    }
+    .nos{
+        padding: 30px 10px;
+    }
+    .testimonial-row h3 {
+        font-size: 22px;
+    }
+    .card-des h3 {
+        margin: 20px 0 10px;
+    }
+    .plombier-left {
+        margin-top: 25px;
+    }
+    .plombier-left h4 {
+        margin-bottom: 10px;
+    }
+    .plombier-left h1 {
+        font-size: 18px;
+        padding: 10px 10px 0;
+        line-height: 25px;
+    }
+    .faq-row {
+        margin-top: 20px;
+    }
+    .contact {
+        padding: 30px 0;
+    }
+    .contact-right {
+        padding: 30px 0 0px;
+    }
+    .mail {
+        margin-bottom: 10px;
+    }
+    .nos-row ul {
+        margin: 20px 0px 0;
+    }
+    .form-left {
+        flex-wrap: wrap;
+    }
+    .form-left input {
+        width: 100%;
+    }
+    .sticky-btn-wrapper.show {
+        bottom: 0; 
+        }
+}  
+@media (max-width: 450px){
+    
+    .nav-btn{
+        max-width: 280px;
+        margin: 16px auto;
+    }
+    .footer-row ul li {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    .cs-btn-three, .cs-btn-secondary {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .nos-row ul > li:first-child{
+        max-width: 70%;
+    }
+    .mail-des {
+        width: 70%;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 360px){
+    .navbar-brand img {
+        max-width: 90px;
+    }
+    .banner {
+        margin-top: 80px;
+    }
+    .mail-des {
+        padding-right: 0px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .card {
+        min-height: 355px;
+    }
+    .sticky-btn-wrapper ul {
+        justify-content: center;
+    }
+    .sticky-btn {
+        font-size: 18px;
+    }
+    .sticky-btn h6 {
+        font-size: 14px;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+}

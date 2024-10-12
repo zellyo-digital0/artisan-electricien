@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <!-- font awesome -->
+     <script src="https://kit.fontawesome.com/882424be97.js" crossorigin="anonymous"></script>
+    <!-- sytyle  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Artisans</title>
+</head>
+
+<body>
+  <!-- header starts -->
+  <header>
+          <div class="header fixed-top">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container  ">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.webp" width="120" class="img-fluid " alt="Artisans Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav align-items-center ms-auto mb-2 text-center mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#installation">Nos Tarifs d'installations</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#repair">Nos tarifs de dépannage</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#tips">Conseils</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                  </ul>
+                  <div class="nav-btn">
+                    <a class="btn cs-btn-secondary" href="#form">Devis mail</a>
+                    <a class="btn cs-btn" href="<?php echo $href; ?>">06 44 64 34 48</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+  </header>
+  <!-- header ends -->
+  <div class="sticky-btn-wrapper">
+    <div class="row align-items-center">
+      <div class="col-3">
+        <a href="#form" class="sticky-btn"><span><i class="fa-solid fa-envelope"></i></span></a>
+      </div>
+      <div class="col-9">
+        <a  class="sticky-btn" href="<?php echo $href; ?>">
+          <h6>Un problème urgent? Contactez-nous</h6>
+          <p><span><i class="fa-solid fa-phone"></i></span> 06 44 64 34 48</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- stiky bottom ends -->
+  <!-- banner starts -->
+  <section class="banner">
+        <div class="container">
+          <div class="row banner-row align-items-center">
+            <div class="col-lg-6 order-lg-1 order-2">
+              <h1>Artisan Électricien <?php echo $ville_cp; ?></h1>
+              <h2>Réparation et Installation électrique  à <?php echo $ville; ?></h2>
+              <h5>Notre équipe d'électriciens qualifiés et expérimentés à Boulogne Billancourt est à votre service pour répondre à tous vos besoins en matière d'électricité. Nous sommes ouverts du lundi au samedi, de 7h30 à 21h, pour vous accompagner avec professionnalisme et efficacité. Nos prestations incluent :</h5>
+              <ul>
+                <li><span><i class="fa-solid fa-check"></i></span> Rénovation électrique</li>
+                <li><span><i class="fa-solid fa-check"></i></span> Mise en conformité</li>
+                <li><span><i class="fa-solid fa-check"></i></span> Installation électrique</li>
+                <li><span><i class="fa-solid fa-check"></i></span> Dépannage d'urgence</li>
+              </ul>
+              <a href="<?php echo $href; ?>" class="btn cs-btn-three">06 44 64 34 48</a>
+            </div>
+            <div class="col-lg-6 order-lg-2 order-1">
+              <div class="banner-img">
+                <img src="images/banner.webp" width="636" class="img-fluid" alt="banner">
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <!-- banner ends -->
+  <!-- icon section start -->
+  <section class="icon p-60">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-6">
+          <div class="icon-box text-center">
+            <div class="icon-img">
+              <img src="images/icon1.png" class="img-fluid" width="80" alt="Depannage dans Theure">
+            </div>
+            <p>Depannage dans Theure</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="icon-box text-center">
+            <div class="icon-img">
+              <img src="images/icon2.png" class="img-fluid" width="80" alt="Expert Plombier">
+            </div>
+            <p>Expert Plombier</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="icon-box text-center">
+            <div class="icon-img">
+              <img src="images/icon3.png" class="img-fluid" width="80" alt="Debis de Plomberie">
+            </div>
+            <p>Debis de Plomberie</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="icon-box text-center">
+            <div class="icon-img">
+              <img src="images/icon4.png" class="img-fluid" width="80" alt="Debis de Plomberie">
+            </div>
+            <p>Debis de Plomberie</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- forfaits starts here -->
+  <!-- --------------------------------------<section class="forfaits p-60 nos-top">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h3>Nos Forfaits de Serrure Fichet</h3>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="forfait-card">
+            <div class="forfait-img">
+              <img src="images/for-1.png" class="img-fluid w-100" alt="for-1.png">
+            </div>
+            <div class="forfait-card-des text-center">
+              <h6>Axe Motorisée</h6>
+              <p>Dès</p>
+              <h2>489 €</h2>
+              <ul>
+                <li>* Axe Motorisé</li>
+                <li>* Commande clé</li>
+                <li>* Tout rideaux métalliques</li>
+                <li>* Sans Changement Tablier</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="forfait-card">
+            <div class="forfait-img">
+              <img src="images/for-2.png" class="img-fluid w-100" alt="for-2.png">
+            </div>
+            <div class="forfait-card-des text-center">
+              <h6>Tablier de Rideaux</h6>
+              <p>Dès</p>
+              <h2>329 €</h2>
+              <ul>
+                <li>* Tablier Acier</li>
+                <li>* Choix Tablier</li>
+                <li>* S'adapte sur installation existante</li>
+                <li>* Acier Inoxydable</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="forfait-card">
+            <div class="forfait-img">
+              <img src="images/for-3.png" class="img-fluid w-100" alt="for-3.png">
+            </div>
+            <div class="forfait-card-des text-center">
+              <h6>Rideaux Complet</h6>
+              <p>Dès</p>
+              <h2>1290 €</h2>
+              <ul>
+                <li>* Choix du tablier Acier</li>
+                <li>* Axe motorisé</li>
+                <li>* Pose a Neuf</li>
+                <li>* Acier Inoxydable</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="forfait-card">
+            <div class="forfait-img">
+              <img src="images/for-1.png" class="img-fluid w-100" alt="for-1.png">
+            </div>
+            <div class="forfait-card-des text-center">
+              <h6>Pièces détachés</h6>
+              <p>Dès</p>
+              <h2>159 €</h2>
+              <ul>
+                <li>* Commande à clé</li>
+                <li>* Commande sans fil</li>
+                <li>* Serrure 2 points</li>
+                <li>* Motorisation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- forfaits ends here -->
+    <!-- Nos tarifs bottom starts -->
+    <section class="nos p-60 nos-top" id="repair">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-1 col-3 p-0">
+            <div class="nos-img">
+              <img src="images/repair.png" class="img-fluid" width="86" alt="Repair Equipment">
+            </div>
+          </div>
+          <div class="col-lg-11 col-9">
+            <h3>Les tarifs de dépannage <span class="d-block">électrique à <?php echo $ville_cp; ?></span></h3>
+          </div>
+          <div class="col-lg-8 m-auto text-center">
+            <p>Nos tarifs de dépannage sont valables pour toutes nos interventions sur <?php echo $ville; ?>. Contactez-nous pour plus d'informations ! Veuillez noter que ces prix sont donnés à titre indicatif et peuvent varier en fonction de la complexité de l'intervention, de la localisation et du matériel nécessaire. Un devis détaillé et personnalisé sera fourni avant chaque intervention pour une totale transparence.</p>
+          </div>
+        </div>
+        <div class="row nos-row">
+          <div class="col-lg-6">
+            <ul>
+              <li>  Recherche de panne électrique -  </li>
+              <li>dès 65 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+            </ul>
+            <ul>
+              <li>Vérification d'installation électrique - </li>
+              <li>dès 65 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+            </ul>
+            <ul>
+              <li>Dépannage de système d'éclairage intérieur ou extérieur - </li>
+              <li>dès 80 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+            </ul>
+            <ul>
+              <li>Dépannage prise de courant - </li>
+              <li>dès 65 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+            </ul>
+            <ul>
+              <li>Remise en fonctionnement - </li>
+              <li>dès 65 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul>
+              <li>Mise en sécurité - </li>
+              <li>à partir de 96 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+            </ul>
+            <ul>
+              <li>Remplacement de disjoncteur de tableau - </li>
+              <li>dès 80 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+            </ul>
+            <ul>
+              <li>Remplacement de disjoncteur différentiel 30mA - </li>
+              <li>dès 186 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+            </ul>
+            <ul>
+              <li>Remplacement de disjoncteur d'abonné 500mA - </li>
+              <li>dès 288 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+            </ul>
+            <ul>
+              <li>Remplacement de prise de courant -</li>
+              <li>dès 85 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Nos tarifs top starts -->
+  <section class="nos p-60" id="installation">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-1 col-3 p-0">
+          <div class="nos-img">
+            <img src="images/technician.png" class="img-fluid" width="86" alt="customer support icon">
+          </div>
+        </div>
+        <div class="col-lg-11 col-9">
+          <h3>Les tarifs d'installation <span class="d-block">électrique à <?php echo $ville_cp; ?></span></h3>
+        </div>
+        <div class="col-lg-8 m-auto text-center">
+          <p>Nos tarifs de dépannage sont valables pour toutes nos interventions sur <?php echo $ville; ?>. Contactez-nous pour plus d'informations ! . Un devis détaillé et personnalisé vous sera fourni avant chaque intervention pour un service transparent et adapté à votre budget.</p>
+        </div>
+      </div>
+      <div class="row nos-row">
+        <div class="col-lg-6">
+          <ul>
+            <li>Remise aux Normes électrique - </li>
+            <li>dès 195 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+          </ul>
+          <ul>
+            <li>Mise à la terre de votre logement ou entreprise - </li>
+            <li>dès 130 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+          </ul>
+          <ul>
+            <li>Création d'une prise de courant classique 16A - </li>
+            <li>dès 130 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+          </ul>
+          <ul>
+            <li>Création d'une prise de courant pour plaque induction 32A - </li>
+            <li>dès 120 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+          </ul>
+          <ul>
+            <li>Remplacement de tableau 1 rangée - </li>
+            <li>dès 385  <span><i class="fa-solid fa-euro-sign"></i></span></li>
+          </ul>
+          <ul>
+            <li>Installation de prise RJ45 -  </li>
+            <li>dès 130 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <ul>
+            <li>Création d'une prise électrique en applique - </li>
+            <li>dès 130 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+          </ul>
+          <ul>
+            <li>Installation ou dépannage de détecteurs de fumée - </li>
+            <li>dès 70 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+          </ul>
+          <ul>
+            <li>Réparation de chauffage électrique - </li>
+            <li>dès 80 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+          </ul>
+          <ul>
+            <li>Raccordement d'appareils électriques (four, lave-linge, etc.) - </li>
+            <li>dès 100 <span><i class="fa-solid fa-euro-sign"></i></span></li>
+          </ul>
+          <ul>
+            <li>Installation d'un digicode, interphone ou Vigik - </li>
+            <li>SUR DEVIS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Nos realisation de Serrurerie starts -->
+  <section class="realisation p-60">
+    <div class="container">
+      <div class="row realisation-row text-center">
+        <div class="col-md-12">
+          <h2>Réalisation de plomberie de Plombier <?php echo $ville; ?></h2>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-lg-4 col-md-6">
+          <div class="card text-center">
+            <div class="card-img">
+              <img src="images/image1.webp" class="img-fluid w-100" alt="image1">
+            </div>
+            <div class="card-des">
+              <div class="card-icon">
+                <div class="card-iner">
+                  <img src="images/vector1.webp" class="img-fluid" alt="Porte Blindee">
+                 </div>
+              </div>
+              <h3>Porte Blindee</h3>
+              <h5>Installation et Depannage</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card text-center">
+            <div class="card-img">
+              <img src="images/image2.webp" class="img-fluid w-100" alt="image2">
+            </div>
+            <div class="card-des">
+              <div class="card-icon">
+                <div class="card-iner">
+                  <img src="images/vector2.webp" class="img-fluid" alt="Porbleme de Serrure">
+                 </div>
+              </div>
+              <h3>Porbleme de Serrure</h3>
+              <h5>Reparation ou Remplacement</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card text-center">
+            <div class="card-img">
+              <img src="images/image3.webp" class="img-fluid w-100" alt="image3">
+            </div>
+            <div class="card-des">
+              <div class="card-icon">
+                <div class="card-iner">
+                 <img src="images/vector3.webp" class="img-fluid" alt="Urgence">
+                </div>
+              </div>
+              <h3>Urgence</h3>
+              <h5>Ouverture de porte Depannage en moins de 45min</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial strats -->
+  <section class="testimonial p-60" id="tips">
+    <div class="container">
+      <div class="row testimonial-row text-center">
+        <div class="col-lg-6  m-auto">
+          <h3>Conseils pour résoudre les problèmes électriques courants sur <?php echo $ville; ?></h3>
+          <a href="<?php echo $href; ?>" class="btn cs-btn">06 44 64 34 48</a>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-lg-6">
+          <div class="single-testimolial">
+            <h4>1. Recherche de panne électrique</h4>
+            <p>Si votre installation électrique présente des problèmes, vérifiez d'abord si le disjoncteur général ou les disjoncteurs divisionnaires sont enclenchés. Si nécessaire, réenclenchez-les. Si le problème persiste, il est préférable de faire appel à un électricien.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-testimolial">
+            <h4>2. Vérification d'installation électrique</h4>
+            <p>Il est essentiel de vérifier régulièrement votre installation électrique pour éviter les problèmes et les risques d'incendie. Assurez-vous que les câbles sont en bon état et que les prises et interrupteurs fonctionnent correctement. Si vous constatez des anomalies, contactez un électricien.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-testimolial">
+            <h4>3. Dépannage de système d'éclairage intérieur ou extérieur</h4>
+            <p>Si vos luminaires ne fonctionnent pas correctement, vérifiez d'abord si les ampoules sont en bon état et correctement installées. Si le problème persiste, il peut s'agir d'un problème de câblage ou de transformateur. Dans ce cas, faites appel à un électricien professionnel.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-testimolial">
+            <h4>4. Dépannage prise de courant</h4>
+            <p>Si une prise de courant ne fonctionne pas, vérifiez d'abord les autres prises de la pièce pour savoir si le problème est isolé. Si c'est le cas, essayez de réinitialiser le disjoncteur correspondant. Si la prise ne fonctionne toujours pas, un électricien devra intervenir pour la réparer.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-testimolial">
+            <h4>5. Remise en fonctionnement</h4>
+            <p>Si votre installation électrique a été coupée suite à une panne ou un dysfonctionnement, il est important de vérifier que tous les appareils électriques sont en bon état avant de remettre le courant. Si vous ne vous sentez pas à l'aise pour effectuer cette opération, contactez un électricien.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-testimolial">
+            <h4>6. Mise en sécurité</h4>
+            <p>Il est essentiel de mettre en sécurité votre installation électrique afin d'éviter les risques d'électrocution et d'incendie. Pour cela, faites vérifier régulièrement votre installation par un électricien professionnel et assurez-vous que les équipements de protection sont en bon état et conformes aux normes en vigueur.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-testimolial">
+            <h4>7. Remplacement de disjoncteur et de prise de courant</h4>
+            <p>Si un disjoncteur ou une prise de courant présente un dysfonctionnement, il est important de les remplacer pour garantir la sécurité de votre installation électrique. Contactez un électricien pour effectuer ces opérations en respectant les normes et les règles de sécurité.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-testimolial">
+            <h4>8. Remplacement de disjoncteur différentiel 30mA et 500mA</h4>
+            <p>Les disjoncteurs différentiels sont essentiels pour protéger les circuits électriques contre les fuites de courant et les courts-circuits. Si un disjoncteur différentiel ne fonctionne plus correctement, il est nécessaire de le remplacer pour garantir la sécurité de votre installation. Un électricien professionnel pourra effectuer cette opération en suivant les normes en vigueur.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-testimolial">
+            <h4>9. Conseils pour économiser de l'énergie</h4>
+            <p>Pour réduire votre consommation d'énergie et faire des économies sur vos factures d'électricité, pensez à éteindre les appareils électriques inutilisés, à utiliser des ampoules basse consommation et à débrancher les chargeurs lorsque vous ne les utilisez pas. N'hésitez pas à demander conseil à un électricien pour optimiser votre installation électrique et réaliser des économies d'énergie.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-testimolial">
+            <h4>10. Entretien et maintenance de votre installation électrique</h4>
+            <p>Un entretien régulier de votre installation électrique est essentiel pour éviter les pannes et garantir votre sécurité. Faites vérifier votre installation par un électricien au moins tous les 10 ans, ou à chaque changement de logement, pour vous assurer qu'elle est en bon état et conforme aux normes en vigueur.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- logo-group section start here -->
+  <section class="logo-group">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-4 col-6">
+          <div class="logo-grp-img">
+            <img src="images/logo-group1.webp" class="img-fluid" width="250" alt="logo 1">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 col-6">
+          <div class="logo-grp-img">
+            <img src="images/logo-group2.webp" class="img-fluid" width="250" alt="logo 2">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 col-6">
+          <div class="logo-grp-img">
+            <img src="images/logo-group3.webp" class="img-fluid" width="250" alt="logo 3">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 col-6">
+          <div class="logo-grp-img">
+            <img src="images/logo-group4.webp" class="img-fluid" width="250" alt="logo 4">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 col-6">
+          <div class="logo-grp-img">
+            <img src="images/logo-group5.webp" class="img-fluid" width="250" alt="logo 5">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 col-6">
+          <div class="logo-grp-img">
+            <img src="images/logo-group6.webp" class="img-fluid" width="250" alt="logo 6">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 col-6">
+          <div class="logo-grp-img">
+            <img src="images/logo-group7.webp" class="img-fluid" width="250" alt="logo 7">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 col-6">
+          <div class="logo-grp-img">
+            <img src="images/logo-group8.webp" class="img-fluid" width="250" alt="logo 8">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Un Plombier start here -->
+  <section class="plombier p-60">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 order-lg-1 order-2">
+          <div class="plombier-left">
+            <h4>Services électriques professionnels pour tous vos besoins</h4>
+            <p>Notre entreprise est spécialisée dans l'installation et la maintenance des systèmes électriques pour les particuliers et les professionnels. Nous vous proposons une gamme complète de services électriques pour répondre à toutes vos exigences et garantir votre sécurité. Découvrez ci-dessous nos principales prestations :</p>
+            <h1>1. Remise aux Normes électrique</h1>
+            <p>Assurez-vous que votre installation électrique est conforme aux normes de sécurité en vigueur. Nos électriciens qualifiés se chargeront de la vérification et de la mise à niveau de votre système électrique pour garantir votre sécurité et celle de votre entourage.</p>
+            <h1>2. Mise à la terre de votre logement ou entreprise</h1>
+            <p>Protégez-vous contre les risques d'électrocution et de surtension en mettant en place un dispositif de mise à la terre efficace. Nos experts réaliseront une étude approfondie de votre installation pour déterminer la meilleure solution de mise à la terre.</p>
+            <h1>3. Création de prises de courant</h1>
+            <p>Améliorez la praticité et la sécurité de votre installation électrique en ajoutant des prises de courant adaptées à vos besoins :
+            <ul>
+                <li><span><i class="fa-solid fa-check"></i></span>Prise classique 16A</li>
+                <li><span><i class="fa-solid fa-check"></i></span>Prise pour plaque induction 32A</li>
+            </ul>
+            </p>
+            <h1>4. Remplacement de tableau électrique</h1>
+            <p>Modernisez votre installation électrique en remplaçant votre ancien tableau par un modèle plus récent et performant. Nous vous proposons des solutions adaptées à vos besoins et à votre budget.</p>
+            <h1>5. Installation de prise RJ45</h1>
+            <p>Optimisez votre réseau informatique et bénéficiez d'une connexion Internet plus rapide et stable grâce à l'installation de prises RJ45.</p>
+            <h1>6. Création d'une prise électrique en applique</h1>
+            <p>Ajoutez facilement une prise électrique supplémentaire en surface, sans effectuer de gros travaux.</p>
+            <h1>7. Installation ou dépannage de détecteurs de fumée</h1>
+            <p>Protégez votre logement contre les incendies en installant des détecteurs de fumée conformes à la réglementation en vigueur. Nous assurons également leur dépannage en cas de dysfonctionnement.</p>
+            <h1>8. Réparation de chauffage électrique</h1>
+            <p>Ne restez pas sans chauffage ! Nos électriciens interviennent rapidement pour réparer votre système de chauffage électrique et vous garantir un confort optimal.</p>
+            <h1>9. Raccordement d'appareils électriques</h1>
+            <p>Confiez-nous l'installation et le raccordement de vos appareils électroménagers (four, lave-linge, etc.) pour une utilisation en toute sécurité.</p>
+            <h1>10. Installation d'un digicode, interphone ou Vigik</h1>
+            <p>Améliorez la sécurité de votre logement ou de votre entreprise en installant des dispositifs de contrôle d'accès, tels qu'un digicode, un interphone ou un système Vigik. Contactez-nous pour obtenir un devis personnalisé adapté à vos besoins et à votre budget.</p>
+            
+            <p>En faisant appel à notre entreprise, vous bénéficierez de l'expertise de nos électriciens qualifiés, qui vous accompagneront tout au long de votre projet, depuis l'évaluation de vos besoins jusqu'à la réalisation des travaux. Nous mettons un point d'honneur à vous offrir des solutions personnalisées et à la pointe de la technologie pour garantir votre sécurité et votre satisfaction.</p>
+            <p>N'hésitez pas à nous contacter pour discuter de vos besoins et obtenir un devis gratuit et sans engagement. Ensemble, nous trouverons la solution électrique la plus adaptée à votre situation, et nous veillerons à ce que votre installation soit conforme aux normes en vigueur pour vous garantir une utilisation sécurisée et optimale de votre système électrique.</p>
+            <p>Choisissez notre entreprise pour vos projets électriques et bénéficiez d'un service professionnel, rapide et de qualité. Nous sommes impatients de travailler avec vous et de contribuer à la réussite de vos projets électriques !</p>
+            <a href="<?php echo $href; ?>" class="btn cs-btn">Contactez-Nous</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-2 order-1">
+          <div class="plombier-right">
+            <img src="images/artisan-serrurier2.webp" class="img-fluid w-100" width="636" alt="Artisans Serrurier">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- faq starts -->
+  <section class="faq p-60" id="faq">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h1>F.A.Q Serrurerie</h1>
+        </div>
+      </div>
+      <div class="row faq-row">
+        <div class="col-md-12">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <h2 class="accordion-header" id="headingOne" itemprop="name">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 <h5> Quels sont les services de serrurerie les plus recherches a sur votre Secteur ?</h5>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p itemprop="text">Les services de serrurerie les plus recherchés à Sur votre Secteur comprennent le dépannage de serrures, l'ouverture de portes verrouillées, la réparation de serrures, le blindage de portes, l'installation de portes blindées et de serrures de haute sécurité.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <h2 class="accordion-header" id="headingTwo" itemprop="name">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h5>Comment trouver Un serrurerir de confiance a sur votre Secteur ?</h5>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p itemprop="text">Pour trouver un serrurier de confiance à Sur votre Secteur, il est important de lire les avis en ligne, de demander des recommandations à des amis ou à des membres de la famille, et de choisir un serrurier qui a une expérience significative et des certifications pertinentes.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <h2 class="accordion-header" id="headingThree" itemprop="name">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                 <h5> Quels sont les typeses de serrures les plus populaires a sur votre Secteur ?</h5>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p itemprop="text">Les serrures les plus populaires à Sur votre Secteur incluent les serrures à cylindre, les serrures multipoints et les serrures de haute sécurité telles que les serrures électroniques.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <h2 class="accordion-header" id="headingfour" itemprop="name">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                  <h5>Comment choisir une serrure de haute securite pour ma porte a sur votre Secteur ?</h5>
+                </button>
+              </h2>
+              <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                <div class="accordion-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p itemprop="text">Pour choisir une serrure de haute sécurité pour votre porte à Sur votre Secteur, il est important de considérer la résistance de la serrure, son niveau de certification et sa compatibilité avec votre porte.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <h2 class="accordion-header" id="headingfive" itemprop="name">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                  <h5>Comment puis-je ouvrir une porte verrouillee si je n’ai pass les cles a sur votre Secteur ?</h5>
+                </button>
+              </h2>
+              <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                <div class="accordion-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p itemprop="text">Pour ouvrir une porte verrouillée si vous n'avez pas les clés à Sur votre Secteur, vous pouvez faire appel à un serrurier professionnel qui peut utiliser des techniques de crochetage pour ouvrir la porte sans endommager la serrure. </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <h2 class="accordion-header" id="headingsix" itemprop="name">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                 <h5> Comment prevenir des cambriolages a sur votre Secteur ?</h5>
+                </button>
+              </h2>
+              <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+                <div class="accordion-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                 <p itemprop="text">Pour prévenir les cambriolages à Sur votre Secteur, il est recommandé d'installer des portes blindées et des systèmes de sécurité tels que des caméras de surveillance et des alarmes. Ces mesures dissuadent les cambrioleurs et rendent plus difficile l'accès à votre propriété.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <h2 class="accordion-header" id="headingseven" itemprop="name">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                 <h5> Comment obtenir ub devis de serrurerie a sur votre Secteur ?</h5>
+                </button>
+              </h2>
+              <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingseven" data-bs-parent="#accordionExample">
+                <div class="accordion-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p itemprop="text">Pour obtenir un devis pour les services de serrurerie à Sur votre Secteur, il est recommandé de contacter plusieurs serruriers locaux pour obtenir des offres de prix. Assurez-vous de fournir des détails sur le type de service dont vous avez besoin afin d'obtenir une estimation précise et complète.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section starts  -->
+  <section class="contact">
+    <div class="container">
+      <div class="row text-center align-items-center">
+        <div class="col-lg-6">
+          <div class="form" id="form">
+            <h5>Contactez votre électricien à <?php echo $ville; ?> pour des informations ou un devis gratuit en ligne.  </h5>
+            <h2>Demand de Devis</h2>
+            <form action="">
+             <div class="form-left">
+              <input type="text" placeholder="prenom" class="form-control">
+              <input type="text" placeholder="Nom" class="form-control">
+             </div>
+             <div class="form-left">
+              <input type="email" placeholder="Email" class="form-control">
+              <input type="text" placeholder="Telephone" class="form-control">
+             </div>
+             <div class="form-left">
+              <textarea placeholder="Votre Message..." class="form-control"  cols="10" rows="4"></textarea>
+             </div>
+              <input type="submit" class="submit"  value="Envoyer">
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-right">
+            <h2>Artisan Electricien intervient sur <?php echo $ville_cp; ?> +5km</h2>
+            <div class="map">
+              <?php echo $maps; ?>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- mail section start -->
+  <section class="mail">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="single-mail">
+            <div class="mail-img">
+              <img src="images/footer-home.webp" width="30" alt="Depannage & Installation icon">
+            </div>
+            <div class="mail-des">
+              <h4>Depannage & Installation</h4>
+              <h5>Sur Votre Secteur</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <a href="<?php echo $href; ?>" class="single-mail">
+            <div class="mail-img">
+              <img src="images/phone.webp" width="30" alt="Telephone icon">
+            </div>
+            <div class="mail-des">
+              <h4>Telephone</h4>
+              <h5>09 72 59 9317</h5>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="#form" class="single-mail">
+            <div class="mail-img">
+              <img src="images/mail.webp" width="30" alt="Email icon">
+            </div>
+            <div  class="mail-des">
+              <h4>Email</h4>
+              <h5>Remplir le Formulaire- response en 1h</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- footer starts -->
+   <footer>
+    <div class="container">
+      <div class="row footer-row text-center">
+        <div class="col-md-12">
+          <div class="footer-logo">
+            <img src="images/footer-logo.webp" class="img-fluid" width="120" alt="Footer Logo">
+          </div>
+          <ul>
+            <li><a href="#installation">Nos Tarifs d'installations</a></li>
+            <li><a href="#repair">Nos tarifs de dépannage</a></li>
+            <li><a href="#tips">Conseils</a></li>
+            <li class="nous"><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+   </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script>
+      const stickyBtn = document.querySelector('.sticky-btn-wrapper');
+
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 200) {
+          stickyBtn.classList.add('show');
+        } else {
+          stickyBtn.classList.remove('show');
+        }
+      });
+    </script>
+      <script>
+          // Get all navigation links
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        // Add click event listener to each navigation link
+        navLinks.forEach(link => {
+          link.addEventListener('click', (event) => {
+            // Prevent default link behavior
+            event.preventDefault();
+            
+            // Get the target section ID from the link's href attribute
+            const targetId = link.getAttribute('href');
+            
+            // Scroll to the target section with smooth behavior
+            document.querySelector(targetId).scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
+        
+        // Add scroll event listener to handle active link highlighting
+        window.addEventListener('scroll', () => {
+          // Get the current scroll position
+          const scrollPosition = window.scrollY;
+          
+          // Loop through all sections to check which one is currently visible
+          document.querySelectorAll('section').forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            
+            if (scrollPosition >= sectionTop - 100 && scrollPosition < sectionTop + sectionHeight - 100) {
+              // If the section is visible, add the active class to the corresponding link
+              const targetId = '#' + section.getAttribute('id');
+              document.querySelector(targetId).classList.add('active');
+            } else {
+              // If the section is not visible, remove the active class from the link
+              const targetId = '#' + section.getAttribute('id');
+              document.querySelector(targetId).classList.remove('active');
+            }
+          });
+        });
+      </script>
+</body>
+
+</html>
